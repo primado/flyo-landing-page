@@ -1095,6 +1095,10 @@ select {
   width: 17em;
 }
 
+.w-\[12em\] {
+  width: 12em;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -1121,10 +1125,6 @@ select {
 
 .w-\[18em\] {
   width: 18em;
-}
-
-.w-\[12em\] {
-  width: 12em;
 }
 
 .w-6 {
@@ -2238,11 +2238,6 @@ select {
   padding-bottom: 0.75rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .py-\[7em\] {
   padding-top: 7em;
   padding-bottom: 7em;
@@ -2261,6 +2256,11 @@ select {
 .px-\[5em\] {
   padding-left: 5em;
   padding-right: 5em;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-20 {
@@ -2291,11 +2291,6 @@ select {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pt-10 {
@@ -2861,8 +2856,8 @@ select {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:bg-opacity-90:hover {
-  --tw-bg-opacity: 0.9;
+.hover\:bg-opacity-80:hover {
+  --tw-bg-opacity: 0.8;
 }
 
 .hover\:font-bold:hover {
@@ -2998,9 +2993,9 @@ select {
     padding-bottom: 2em;
   }
 
-  .sm\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .sm\:text-center {
@@ -3013,6 +3008,10 @@ select {
 
   .sm\:text-\[2\.19em\] {
     font-size: 2.19em;
+  }
+
+  .sm\:text-\[1\.23em\] {
+    font-size: 1.23em;
   }
 
   .sm\:font-medium {
@@ -3051,6 +3050,10 @@ select {
 
   .sm-01\:w-\[30em\] {
     width: 30em;
+  }
+
+  .sm-01\:w-\[1em\] {
+    width: 1em;
   }
 
   .sm-01\:w-\[25em\] {
@@ -3093,81 +3096,6 @@ select {
   }
 }
 
-@media (max-width: 375px) {
-  .sm-02\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .sm-02\:w-\[10\] {
-    width: 10;
-  }
-
-  .sm-02\:w-\[100px\] {
-    width: 100px;
-  }
-
-  .sm-02\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .sm-02\:px-\[0\] {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .sm-02\:px-\[10\] {
-    padding-left: 10;
-    padding-right: 10;
-  }
-
-  .sm-02\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .sm-02\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .sm-02\:px-\[5em\] {
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-
-  .sm-02\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .sm-02\:px-\[100px\] {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
-
-@media (max-width: 390px) {
-  .sm-03\:w-\[100\%\] {
-    width: 100%;
-  }
-
-  .sm-03\:px-\[100px\] {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .sm-03\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .sm-03\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-}
-
 @media (max-width: 768px) {
   .md\:max-w-4xl {
     max-width: 56rem;
@@ -3187,8 +3115,22 @@ select {
 }
 
 @media (max-width: 1536px) {
+  .\32xl\:w-\[30em\] {
+    width: 30em;
+  }
+
   .\32xl\:px-\[2em\] {
     padding-left: 2em;
     padding-right: 2em;
+  }
+
+  .\32xl\:px-\[5em\] {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .\32xl\:px-\[4em\] {
+    padding-left: 4em;
+    padding-right: 4em;
   }
 }
