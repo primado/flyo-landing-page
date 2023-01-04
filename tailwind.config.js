@@ -16,6 +16,12 @@ module.exports = {
 
     },
 
+    backgroundImage: {
+      // Configure your background image here
+      "bg-curve": "url('/images/bg-curve-desktop.svg')",
+    
+    },
+
     fontFamily: {
       // Configure your font family here
       'raleway': ['"Raleway"', 'sans-serif'],
@@ -29,9 +35,33 @@ module.exports = {
 
     },
 
+    screens: {
+      // Configure your responsive design here
+
+      'sm': {'max': '640px'},
+
+      'sm-01': {'max': '412px'},
+      'sm-02': {'max': '375px'},
+      'sm-03': {'max': '390px'},
+
+      'md': {'max': '768px'},
+      // => @media (min-width: 768px) { ... }
+
+      'lg': {'max': '1024px'},
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': {'max': '1280px'},
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': {'max': '1536px'},
+      // => @media (min-width: 1536px) { ... }
+    },
+
 
     extend: {},
   },
+
+
   plugins: [
     require('@tailwindcss/forms'),
     // ...
