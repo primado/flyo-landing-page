@@ -43,6 +43,7 @@ module.exports = {
       'sm-01': {'max': '412px'},
       'sm-02': {'max': '375px'},
       'sm-03': {'max': '390px'},
+      '2sm': {'max': '414px'},
 
       'md': {'max': '768px'},
       // => @media (min-width: 768px) { ... }

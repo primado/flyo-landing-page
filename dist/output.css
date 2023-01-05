@@ -2072,6 +2072,11 @@ select {
   border-style: none;
 }
 
+.border-\[\#f41212\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(244 18 18 / var(--tw-border-opacity));
+}
+
 .border-form_border {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -2087,14 +2092,14 @@ select {
   background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
 }
 
-.bg-lightGrayishBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(240 75% 98% / var(--tw-bg-opacity));
-}
-
 .bg-desaturatedBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(238 22% 44% / var(--tw-bg-opacity));
+}
+
+.bg-lightGrayishBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(240 75% 98% / var(--tw-bg-opacity));
 }
 
 .bg-veryDarkBlue {
@@ -2233,14 +2238,19 @@ select {
   padding: 0.75rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .py-\[8em\] {
@@ -2256,6 +2266,11 @@ select {
 .py-\[7em\] {
   padding-top: 7em;
   padding-bottom: 7em;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-5 {
@@ -2301,11 +2316,6 @@ select {
 .px-0\.5 {
   padding-left: 0.125rem;
   padding-right: 0.125rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .pt-10 {
@@ -3112,6 +3122,24 @@ select {
 
   .sm-01\:text-\[1\.59em\] {
     font-size: 1.59em;
+  }
+}
+
+@media (max-width: 375px) {
+  .sm-02\:text-\[\.5em\] {
+    font-size: .5em;
+  }
+}
+
+@media (max-width: 414px) {
+  .\32sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .\32sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
