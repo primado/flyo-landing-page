@@ -2877,6 +2877,11 @@ select {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-brightBlue_100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 76 255 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-opacity-80:hover {
   --tw-bg-opacity: 0.8;
 }
@@ -3043,6 +3048,57 @@ select {
   }
 }
 
+@media (max-width: 435px) {
+  .sm-428\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .sm-428\:w-20 {
+    width: 5rem;
+  }
+
+  .sm-428\:w-\[28em\] {
+    width: 28em;
+  }
+
+  .sm-428\:w-full {
+    width: 100%;
+  }
+
+  .sm-428\:w-9\/12 {
+    width: 75%;
+  }
+
+  .sm-428\:w-\[35em\] {
+    width: 35em;
+  }
+
+  .sm-428\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm-428\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sm-428\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm-428\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm-428\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 @media (max-width: 417px) {
   .sm-412\:mr-3 {
     margin-right: 0.75rem;
@@ -3090,6 +3146,26 @@ select {
   }
 }
 
+@media (max-width: 400px) {
+  .sm-390\:w-20 {
+    width: 5rem;
+  }
+
+  .sm-390\:w-full {
+    width: 100%;
+  }
+
+  .sm-390\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .sm-390\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 @media (max-width: 390px) {
   .sm-384\:ml-8 {
     margin-left: 2rem;
@@ -3112,6 +3188,35 @@ select {
   .sm-384\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .sm-375\:w-full {
+    width: 100%;
+  }
+
+  .sm-375\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .sm-375\:w-9\/12 {
+    width: 75%;
+  }
+
+  .sm-375\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm-375\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sm-375\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
@@ -3181,10 +3286,6 @@ select {
     width: 30em;
   }
 
-  .md-810\:w-\[28em\] {
-    width: 28em;
-  }
-
   .md-810\:w-full {
     width: 100%;
   }
@@ -3207,10 +3308,6 @@ select {
 
   .md-810\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .md-810\:gap-5 {
-    gap: 1.25rem;
   }
 
   .md-810\:gap-10 {

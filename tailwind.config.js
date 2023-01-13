@@ -9,6 +9,7 @@ module.exports = {
       veryDarkBlue: "hsl(243, 87%, 12%)",
       desaturatedBlue: "hsl(238, 22%, 44%)",
       brightBlue: "hsl(224, 93%, 58%)",
+      brightBlue_100: "#314cff",
       moderateCyan: "hsl(170, 45%, 43%)",
       lightGrayishBlue: "hsl(240, 75%, 98%)",
       lightGray: "hsl(0, 0%, 75%)",
@@ -40,9 +41,11 @@ module.exports = {
 
       'sm': {'max': '640px'},
 
+      'sm-428': {max: '435px'},
       'sm-412': {max: '417px'},
-      'sm-390': {max: '395px'},
+      'sm-390': {max: '400px'},
       'sm-384': {max: '390px'},
+      'sm-375': {max: '380px'}, 
       'sm-360': {max: '365px'},
       '2sm': {max: '414px'},
 
