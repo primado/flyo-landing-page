@@ -2985,8 +2985,8 @@ select {
     width: 34em;
   }
 
-  .sm\:w-\[w-100\%\] {
-    width: w-100%;
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:w-\[18em\] {
@@ -3112,12 +3112,16 @@ select {
     width: 7rem;
   }
 
+  .sm-412\:w-full {
+    width: 100%;
+  }
+
   .sm-412\:w-96 {
     width: 24rem;
   }
 
-  .sm-412\:w-full {
-    width: 100%;
+  .sm-412\:w-screen {
+    width: 100vw;
   }
 
   .sm-412\:px-5 {
@@ -3130,9 +3134,19 @@ select {
     padding-bottom: 2rem;
   }
 
+  .sm-412\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm-412\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm-412\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .sm-412\:text-3xl {
@@ -3140,9 +3154,15 @@ select {
     line-height: 2.25rem;
   }
 
-  .sm-412\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .sm-412\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .sm-414\:w-screen {
+    width: 100vw;
   }
 }
 
@@ -3196,27 +3216,9 @@ select {
     width: 100%;
   }
 
-  .sm-375\:w-8\/12 {
-    width: 66.666667%;
-  }
-
-  .sm-375\:w-9\/12 {
-    width: 75%;
-  }
-
   .sm-375\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .sm-375\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .sm-375\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
 

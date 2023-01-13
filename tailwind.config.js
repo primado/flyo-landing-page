@@ -43,6 +43,7 @@ module.exports = {
 
       'sm-428': {max: '435px'},
       'sm-412': {max: '417px'},
+      'sm-414': {max: '415px'},
       'sm-390': {max: '400px'},
       'sm-384': {max: '390px'},
       'sm-375': {max: '380px'}, 
