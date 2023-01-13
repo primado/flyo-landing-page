@@ -3073,6 +3073,10 @@ select {
     width: 35em;
   }
 
+  .sm-428\:w-screen {
+    width: 100vw;
+  }
+
   .sm-428\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -3088,6 +3092,11 @@ select {
     padding-right: 1.5rem;
   }
 
+  .sm-428\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm-428\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -3096,6 +3105,16 @@ select {
   .sm-428\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm-428\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm-428\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -3158,6 +3177,11 @@ select {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm-412\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (max-width: 415px) {
@@ -3219,6 +3243,16 @@ select {
   .sm-375\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .sm-375\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm-375\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
