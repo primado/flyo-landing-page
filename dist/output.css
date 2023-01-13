@@ -1675,10 +1675,6 @@ select {
   gap: 1.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -2324,11 +2320,6 @@ select {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.px-\[5em\] {
-  padding-left: 5em;
-  padding-right: 5em;
 }
 
 .pt-10 {
@@ -3148,6 +3139,10 @@ select {
 
   .sm-412\:w-screen {
     width: 100vw;
+  }
+
+  .sm-412\:w-\[50em\] {
+    width: 50em;
   }
 
   .sm-412\:w-\[35em\] {
