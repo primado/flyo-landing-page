@@ -1091,12 +1091,20 @@ select {
   width: 8em;
 }
 
+.w-\[35em\] {
+  width: 35em;
+}
+
 .w-\[17em\] {
   width: 17em;
 }
 
 .w-\[12em\] {
   width: 12em;
+}
+
+.w-\[42em\] {
+  width: 42em;
 }
 
 .w-full {
@@ -1121,10 +1129,6 @@ select {
 
 .w-\[38\.9em\] {
   width: 38.9em;
-}
-
-.w-\[35em\] {
-  width: 35em;
 }
 
 .w-\[18em\] {
@@ -1659,12 +1663,20 @@ select {
   justify-items: stretch;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-0 {
+  gap: 0px;
 }
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -2073,14 +2085,14 @@ select {
   border-color: rgb(244 18 18 / var(--tw-border-opacity));
 }
 
-.border-\[\#fff\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-form_border {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-\[\#fff\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-brightBlue {
@@ -2088,14 +2100,14 @@ select {
   background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
 }
 
-.bg-desaturatedBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(238 22% 44% / var(--tw-bg-opacity));
-}
-
 .bg-lightGrayishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(240 75% 98% / var(--tw-bg-opacity));
+}
+
+.bg-desaturatedBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(238 22% 44% / var(--tw-bg-opacity));
 }
 
 .bg-veryDarkBlue {
@@ -2254,6 +2266,11 @@ select {
   padding-bottom: 0.75rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .py-\[7em\] {
   padding-top: 7em;
   padding-bottom: 7em;
@@ -2274,9 +2291,9 @@ select {
   padding-bottom: 4rem;
 }
 
-.px-\[5em\] {
-  padding-left: 5em;
-  padding-right: 5em;
+.px-\[8em\] {
+  padding-left: 8em;
+  padding-right: 8em;
 }
 
 .py-10 {
@@ -2287,11 +2304,6 @@ select {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .px-6 {
@@ -2312,6 +2324,11 @@ select {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.px-\[5em\] {
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 .pt-10 {
@@ -3065,6 +3082,10 @@ select {
     width: 100%;
   }
 
+  .sm-428\:w-screen {
+    width: 100vw;
+  }
+
   .sm-428\:w-9\/12 {
     width: 75%;
   }
@@ -3073,28 +3094,19 @@ select {
     width: 35em;
   }
 
-  .sm-428\:w-screen {
-    width: 100vw;
-  }
-
   .sm-428\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
 
-  .sm-428\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .sm-428\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sm-428\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .sm-428\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .sm-428\:text-base {
@@ -3105,11 +3117,6 @@ select {
   .sm-428\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .sm-428\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .sm-428\:text-3xl {
@@ -3143,6 +3150,10 @@ select {
     width: 100vw;
   }
 
+  .sm-412\:w-\[35em\] {
+    width: 35em;
+  }
+
   .sm-412\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -3171,16 +3182,6 @@ select {
   .sm-412\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .sm-412\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm-412\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
@@ -3248,11 +3249,6 @@ select {
   .sm-375\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .sm-375\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 }
 
