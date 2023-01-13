@@ -40,21 +40,24 @@ module.exports = {
 
       'sm': {'max': '640px'},
 
-      'sm-01': {'max': '412px'},
-      'sm-02': {'max': '375px'},
-      'sm-03': {'max': '390px'},
-      '2sm': {'max': '414px'},
+      'sm-412': {max: '417px'},
+      'sm-390': {max: '395px'},
+      'sm-384': {max: '390px'},
+      'sm-360': {max: '365px'},
+      '2sm': {max: '414px'},
 
-      'md': {'max': '768px'},
+      'md-810': {max: '820px'},
+
+      'md': {max: '768px'},
       // => @media (min-width: 768px) { ... }
 
-      'lg': {'max': '1024px'},
+      'lg': {max: '1024px'},
       // => @media (min-width: 1024px) { ... }
 
-      'xl': {'max': '1280px'},
+      'xl': {max: '1280px'},
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': {'max': '1536px'},
+      '2xl': {max: '1536px'},
       // => @media (min-width: 1536px) { ... }
     },
 
